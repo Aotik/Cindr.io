@@ -1,12 +1,12 @@
 {
-	"name": "portfolio",
-	"version": "0.0.1",
-	"description": "Stefan Manssons Portfolio",
+	"name": "Cindr.io",
+	"version": "0.0.4",
+	"description": "Official website for cindr.io",
 	"main": "gruntfile.js",
 	"scripts": {
 		"start": "concurrently \"node dev.js\" \"grunt watch\""
 	},
-	"author": "Stefan Mansson <st.mansson@icloud.com> (http://aotik.io)",
+	"author": "Stefan Mansson <st.mansson@icloud.com> (http://mansson.io)",
 	"license": "ISC",
 	"devDependencies": {
 		"connect": "^3.5.0",
