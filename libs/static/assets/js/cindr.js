@@ -1,3 +1,5 @@
+console.log('Hi explorer 👋');
+
 let lastTouchY = 0;
 const showWrapper = () => {
     $('.wrapper').stop().animate({ top: '0' }, 300, () => {

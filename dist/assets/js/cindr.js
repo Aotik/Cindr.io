@@ -1,3 +1,5 @@
+console.log('Hi explorer 👋');
+
 let lastTouchY = 0;
 const showWrapper = () => {
     $('.wrapper').stop().animate({ top: '0' }, 300, () => {
@@ -14,30 +16,17 @@ $('.chevron-down').on('click', () => {
     showWrapper();
 });
 
-$('.head').on('touchmove', (e) => {
-    e.preventDefault();
-    const currentTouchY = e.originalEvent.touches[0].clientY;
-    if (currentTouchY > lastTouchY) {
-        showWrapper();
-        lastTouchY = 0;
-    } else {
-        lastTouchY = currentTouchY;
-    }
-});
-
-$('.wrapper').on('touchmove', (e) => {
-    e.preventDefault();
-    const currentTouchY = e.originalEvent.touches[0].clientY;
-    if (currentTouchY < lastTouchY) {
-        hideWrapper();
-        lastTouchY = 0;
-    } else {
-        lastTouchY = currentTouchY;
-    }
-});
-
 $('.head').on('mousewheel', (e) => {
-    if (e.originalEvent.wheelDeltaY < 0 && $('.head').offset().top === 0) {
+    const hd = $('.head');
+    let isBottom = false;
+    const vh = Math.floor(hd[0].scrollHeight - hd.scrollTop());
+    const oh = Math.floor(hd.outerHeight());
+
+    if (vh > oh - 5 && vh < oh + 5) {
+        isBottom = true;
+    }
+
+    if (e.originalEvent.wheelDeltaY < 0 && isBottom) {
         showWrapper();
     }
 });
