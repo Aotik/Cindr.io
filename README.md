@@ -1,4 +1,5 @@
-# Cindr.io
-The official website repository for Cindr.io.
+### Cindr.io
 
-Image assets are intellectual property of Cindr.io Limited
+Homepage for Cindr.io.
+
+Licensed under Apache License 2.0

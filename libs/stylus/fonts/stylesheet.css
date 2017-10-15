@@ -1,0 +1,79 @@
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Bold.eot');
+	src: url('hinted-InterUI-Bold.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Bold.woff') format('woff'),
+		url('hinted-InterUI-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Medium.eot');
+	src: url('hinted-InterUI-Medium.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Medium.woff') format('woff'),
+		url('hinted-InterUI-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Black.eot');
+	src: url('hinted-InterUI-Black.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Black.woff') format('woff'),
+		url('hinted-InterUI-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Regular.eot');
+	src: url('hinted-InterUI-Regular.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Regular.woff') format('woff'),
+		url('hinted-InterUI-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Black.eot');
+	src: url('hinted-InterUI-Black.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Black.woff') format('woff'),
+		url('hinted-InterUI-Black.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Medium.eot');
+	src: url('hinted-InterUI-Medium.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Medium.woff') format('woff'),
+		url('hinted-InterUI-Medium.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Regular.eot');
+	src: url('hinted-InterUI-Regular.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Regular.woff') format('woff'),
+		url('hinted-InterUI-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Inter UI';
+	src: url('hinted-InterUI-Bold.eot');
+	src: url('hinted-InterUI-Bold.eot?#iefix') format('embedded-opentype'),
+		url('hinted-InterUI-Bold.woff') format('woff'),
+		url('hinted-InterUI-Bold.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
