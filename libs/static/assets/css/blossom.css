@@ -146,15 +146,15 @@ h6 {
 }
 ::selection {
   color: #fff;
-  background-color: #eb8194;
+  background-color: rgba(243,112,124,0.733);
 }
 a {
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
   text-decoration: underline;
   cursor: pointer;
 }
 a:hover {
-  color: #df3150;
+  color: rgba(236,24,44,0.733);
 }
 p {
   line-height: 1.6em;
@@ -2602,7 +2602,7 @@ small {
   font-weight: 500;
 }
 .dropdown li:hover a {
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
 }
 .dropdown li a {
   color: #515557;
@@ -2980,17 +2980,17 @@ small {
 }
 .button.primary {
   color: #fff;
-  background-color: #e34b66;
+  background-color: rgba(238,51,68,0.733);
 }
 .button.primary.outlined {
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
   background-color: transparent;
-  -webkit-box-shadow: inset 0px 0px 0px 1px #e34b66;
-  box-shadow: inset 0px 0px 0px 1px #e34b66;
+  -webkit-box-shadow: inset 0px 0px 0px 1px rgba(238,51,68,0.733);
+  box-shadow: inset 0px 0px 0px 1px rgba(238,51,68,0.733);
 }
 .button.primary:hover {
   color: #fff;
-  background-color: #e03654;
+  background-color: rgba(236,30,48,0.733);
 }
 .button.labeled {
   padding: 0.5em 1.8em 0.5em 4.2em;
@@ -3106,7 +3106,7 @@ ol.list {
   color: #5a5e61;
 }
 .list.links > .item.active a {
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
 }
 .list.divided li:first-child,
 .list.divided .item:first-child {
@@ -3352,7 +3352,7 @@ ol.ordered li[value]:before {
 }
 .input input:focus,
 .input textarea:focus {
-  border-color: #e34b66;
+  border-color: rgba(238,51,68,0.733);
 }
 .input textarea {
   line-height: 1.2rem;
@@ -3452,7 +3452,7 @@ ol.ordered li[value]:before {
   background-color: #f4f5f7;
 }
 .menu.panel .item.active {
-  background-color: #e34b66;
+  background-color: rgba(238,51,68,0.733);
   color: #fff;
   font-weight: 500;
 }
@@ -3539,7 +3539,7 @@ ol.ordered li[value]:before {
   background-color: #f4f5f7;
 }
 .menu.pills .item.active {
-  background-color: #e34b66;
+  background-color: rgba(238,51,68,0.733);
   color: #fff;
 }
 .menu.basic .item {
@@ -3701,16 +3701,16 @@ ol.ordered li[value]:before {
   color: #000;
 }
 .primary:not(.button):not(.text) {
-  background-color: #e34b66;
+  background-color: rgba(238,51,68,0.733);
 }
 .primary:not(.button):not(.text).light {
-  background-color: #e86b82;
+  background-color: rgba(241,88,102,0.733);
 }
 .primary:not(.button):not(.text).dark {
-  background-color: #d62141;
+  background-color: rgba(219,18,36,0.733);
 }
 .text.primary {
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
 }
 .ash:not(.button):not(.text) {
   background-color: #2f3133;
@@ -3992,7 +3992,7 @@ ol.ordered li[value]:before {
   line-height: 1.62rem;
 }
 .comments .comment .content .creator:hover {
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
 }
 .comments .comment .content .text {
   line-height: 1.14rem;
@@ -4208,7 +4208,7 @@ ol.ordered li[value]:before {
   background-color: #f8f9fa;
 }
 .stages .stage.active .header {
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
 }
 .stages .stage.active:before {
   border-left-color: #f8f9fa;
@@ -4268,7 +4268,7 @@ ol.ordered li[value]:before {
 }
 code {
   background-color: #f8f9fa;
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
   padding: 0.3rem 0.5rem;
   border-radius: 4px;
   font-family: 'Roboto Mono', 'Consolas', 'Monaco', 'Lucida Console', monospace;
@@ -5157,12 +5157,33 @@ p code {
   max-height: 100%;
   overflow-y: auto;
   height: 100vh;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -o-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
 }
 .head::-webkit-scrollbar {
   display: none;
 }
 .head .inner {
-  padding: 7rem 0 5rem 0;
+  padding: 7rem 0 4.5rem 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: box;
+  display: flex;
+  -webkit-align-self: center;
+  align-self: center;
+  -ms-flex-item-align: center;
 }
 .head h1 {
   display: inline-block;
@@ -5187,7 +5208,7 @@ p code {
   color: #fff;
 }
 .head .chevron-down {
-  margin: 10rem 0 1.4rem 0;
+  margin: 9rem 0 1.4rem 0;
   cursor: pointer;
 }
 .head .chevron-down svg {
@@ -5201,7 +5222,7 @@ p code {
     overflow-y: visible;
   }
   .head .inner {
-    padding: 3rem 0;
+    padding: 5rem 0;
   }
   .head h1 {
     font-size: 3rem;
@@ -5252,7 +5273,7 @@ p code {
 .timeline h1 {
   font-size: 5.4rem;
   font-weight: 800;
-  color: #e34b66;
+  color: rgba(238,51,68,0.733);
   display: inline-block;
   font-family: "Geogrotesque W01", sans-serif;
   text-transform: uppercase;
@@ -5394,6 +5415,6 @@ p code {
 }
 @media only screen and (max-width: 1024px) {
   .side {
-    display: none;
+    display: none !important;
   }
 }
